@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>酷我音乐</title>
+	<link rel="stylesheet" type="text/css" href="css/kuwo.css">
+</head>
+<body>
+	<div class="header">
+		<div class="head">
+			<div class="head_left">
+				<a href="">
+					<img src="images/dac7499.png" alt="" class="head_left_img" width="144px">
+				</a>
+				<div class="head_left_right">
+					<ul class="nav">
+						<li class="item_first">
+							<a href="" class="first-one">发现音乐</a>
+						</li>
+						<li>
+							<a href="kuwo1.html" class="first">下载客户端</a>
+						</li>
+						<li>
+							<a href="" class="first" >音乐现场</a>
+						</li>
+						<li>
+							<a href="" class="first">VIP会员</a>
+						</li>
+						<li>
+							<a href="" class="first">酷我耳机</a>
+						</li>
+						<li>
+							<a href="" class="first">更多</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="head_right">
+				<div class="head_right_left">
+					<input type="text" class="right_left_input" placeholder="搜索音乐/MV/歌单/歌手">
+				</div>
+				<div class="head_right-right">
+					<a href=""class="right-right-a">登录/注册</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="container_nav">
+			<div class="nav_right">
+				<a href="" class="right_none" style="background:yellow;">推荐</a>
+				<a href="" class="right_a">排行榜</a>
+				<a href="" class="right_a">歌手</a>
+				<a href="" class="right_a">歌单</a>
+				<a href="" class="right_a">MV</a>
+			</div>
+		</div>
+		<div class="container_list">
+			<div class="container_list_top"><img id=obj src="images/1557311466098_.png" alt="" style="width:1032px;height:301px";></div>
+			
+			<script language =javascript >
+			var curIndex=0;
+			var timeInterval=1000;
+			var arr=new Array();
+			arr[0]="images/1557311466098_.png";
+			arr[1]="images/1574836239414.jpg";
+			arr[2]="images/1575211826742_.jpg";
+			arr[3]="images/1575213683912_.jpg";
+			arr[4]="images/1575301795004_.jpg";
+			setInterval(changeImg,timeInterval);
+			function changeImg()
+			{
+			var obj=document.getElementById("obj");
+			if (curIndex==arr.length-1) 
+			{
+			curIndex=0;
+			}
+			else
+			{
+			curIndex+=1;
+			}
+			obj.src=arr[curIndex];
+			}
+			</script>
+			
+			
+			
+			
+			<div class="container_list_bottom">
+				<div class="list_bottom">
+					<a href="" class="span"><img src="images/windows.png" alt="" style="width:28.44px;height:29px;">下载PC版</a>
+					<span class="span">|</span>
+					<a href="" class="span"><img src="images/anzhuo.png" alt="" style="width:28.44px;height:29px;">下载Android版</a>
+					<span class="span">|</span>
+					<a href="" class="span"><img src="images/iphone.png" alt="" style="width:28.44px;height:29px;">下载iPhone版</a>
+					<span class="span">|</span>
+					<a href="" class="span"><img src="images/diannao_bendi.png" alt="" style="width:28.44px;height:29px;">下载其他版本</a>
+				</div>
+			</div>
+		</div>
+		<div class="container_menu">
+			<div class="menu_top">
+				<span class="menu_top_one">推荐歌单</span>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href="" class="right_none" style="background:yellow;">每日推荐</a>
+				<a href="" class="right_a">翻唱</a>
+				<a href="" class="right_a">网络</a>
+				<a href="" class="right_a">伤感</a>
+				<a href="" class="right_a">MV</a>
+				<a href="" class="right_b">更多></a>
+			</div>
+			<div class="container_menu_bottom">
+				<div class="menu_div">
+					<div>
+						<img src="images/15752556.jpg" alt="" class="menu_img">
+					</div>
+					
+					<a href="" class="menu_a">
+						<p class="menu_p">每日最新单曲推荐</p>
+					</a>
+					<p class="menu_p_sec"><img src="images/bofanganniu.png" alt="" class="menu_p_img">19615.9万</p>
+				</div>
+				<div class="menu_div">
+					<div>
+						<img src="images/1546948360105_368142962_500.jpg" alt="" class="menu_img">
+					</div>
+					<a href="" class="menu_a">
+						<p class="menu_p">【影视】那些曾经让我们痴迷的影视神曲</p>
+					</a>
+					<p class="menu_p_sec"><img src="images/bofanganniu.png" alt="" class="menu_p_img">31.2万</p>
+				</div>
+				<div class="menu_div">
+					<div>
+						<img src="images/1489157979730_529601239_500.jpg" alt="" class="menu_img">
+					</div>
+					<a href="" class="menu_a">
+						<p class="menu_p">East Coast：东岸说唱复兴运动</p>
+					</a>
+					<p class="menu_p_sec"><img src="images/bofanganniu.png" alt="" class="menu_p_img">4.8万</p>
+				</div>
+				<div class="menu_div">
+					<div>
+						<img src="images/1489133652183_44810343_500.jpg" alt="" class="menu_img">
+					</div>
+					<a href="" class="menu_a">
+						<p class="menu_p">粤语男声精选｜耳边吹来一阵深情的怀旧风</p>
+					</a>
+					<p class="menu_p_sec"><img src="images/bofanganniu.png" alt="" class="menu_p_img">51.8万</p>
+				</div>
+				<div class="menu_div">
+					<div>
+						<img src="images/1565347525110_335443338_500.jpg" alt="" class="menu_img">
+					</div>
+					<a href="" class="menu_a">
+						<p class="menu_p">中国民遥｜天籁之音</p>
+					</a>
+					<p class="menu_p_sec"><img src="images/bofanganniu.png" alt="" class="menu_p_img">3.8万</p>
+				</div>
+			</div>
+		</div>
+		<div class="container_activity">
+			<div class="activity">
+				<span class="activity_top">精选活动</span>
+			</div>
+			<div class="activity_bottom">
+				<a href="" class="img"><img src="images/1574840728324_.jpg" alt="" style="width:508.5px;height:225.39px;"></a>
+				<a href="" class="img-second"><img src="images/1574840728324_.jpg" alt="" style="width:508.5px;height:225.39px;"></a>
+			</div>
+		</div>
+		<div class="container_rank">
+			<div class="rank_top">
+				<span class="activity_top">排行榜</span>
+				<a href=""  class="right_b">
+					<span>更多></span>
+				</a>
+			</div>
+			<div class="rank_bottom">
+				<div class="rank_bottom_hezi">
+					<div class="bottom_hezi">
+						<img src="images/0047.png" alt="" style="width:194.4px;height:144.61px;">
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/509.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/520.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/526.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music_num">
+								4
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music_num">
+								5
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rank_bottom_hez">
+					<div class="bottom_hezi">
+						<img src="images/300.png" alt="" style="width:194.4px;height:144.61px;">
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/509.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/520.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/526.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">阿悠悠</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music_num">
+								4
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music_num">
+								5
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rank_bottom_hez">
+					<div class="bottom_hezi">
+						<img src="images/311.png" alt="" style="width:194.4px;height:144.61px;">
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/509.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/520.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/526.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music_num">
+								4
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music_num">
+								5
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rank_bottom_hez">
+					<div class="bottom_hezi">
+						<img src="images/316.png" alt="" style="width:194.4px;height:144.61px;">
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/509.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/520.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/526.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music_num">
+								4
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">阿悠悠</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music_num">
+								5
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rank_bottom_hez">
+					<div class="bottom_hezi">
+						<img src="images/324.png" alt="" style="width:194.4px;height:144.61px;">
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/509.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/520.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music">
+								<img src="images/526.png" alt="" style="width:30px;height:43px;">
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music_num">
+								4
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+						<div class="hezi_neirong">
+							<div class="music_num">
+								5
+							</div>
+							<div class="name">
+								<a href="" class="name_music">年少有为</a>
+								<br>
+								<a href="" class="name_people">李荣浩</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				</div>
+			</div>
+		<div class="singer">
+			<div class="singer_top">
+				<span class="menu_top_one">歌手推荐</span>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href="" class="right_none" style="background:yellow;">华语</a>
+				<a href="" class="right_a">欧美</a>
+				<a href="" class="right_a">日韩</a>
+				<a href="" class="right_a">组合</a>
+				<a href="" class="right_b">更多></a>
+			</div>	
+			<div class="singer_bottom">
+				<div class="bottom_singer">
+					<a href="">
+						<img src="images/476788207.jpg" alt="" style="height:159.5px;width:159.5px;border-radius: 50%;">
+					</a>
+				</div>
+				<div class="bottom-bottom">
+					<a href="" class="bottom_name">周杰伦</a>
+					<p>1030首歌曲</p>
+				</div>
+			</div>
+			<div class="singer_botto">
+				<div class="bottom_singer">
+					<a href="">
+						<img src="images/2191880246.jpg" alt="" style="height:159.5px;width:159.5px;border-radius: 50%;">
+					</a>
+				</div>
+				<div class="bottom-bottom">
+					<a href="" class="bottom_name">G.E.M.邓紫棋</a>
+					<p>654首歌曲</p>
+				</div>
+			</div>
+			<div class="singer_botto">
+				<div class="bottom_singer">
+					<a href="">
+						<img src="images/2918311927.jpg" alt="" style="height:159.5px;width:159.5px;border-radius: 50%;">
+					</a>
+				</div>
+				<div class="bottom-bottom">
+					<a href="" class="bottom_name">阿悠悠</a>
+					<p>25首歌曲</p>
+				</div>
+			</div>
+			<div class="singer_botto">
+				<div class="bottom_singer">
+					<a href="">
+						<img src="images/4288352331.jpg" alt="" style="height:159.5px;width:159.5px;border-radius: 50%;">
+					</a>
+				</div>
+				<div class="bottom-bottom">
+					<a href="" class="bottom_name">小阿枫</a>
+					<p>87首歌曲</p>
+				</div>
+			</div>
+			<div class="singer_botto">
+				<div class="bottom_singer">
+					<a href="">
+						<img src="images/732851026.jpg" alt="" style="height:159.5px;width:159.5px;border-radius: 50%;">
+					</a>
+				</div>
+				<div class="bottom-bottom">
+					<a href="" class="bottom_name">林俊杰</a>
+					<p>917首歌曲</p>
+				</div>
+			</div>
+			<div class="singer_botto">
+				<div class="bottom_singer">
+					<a href="">
+						<img src="images/2761565361.jpg" alt="" style="height:159.5px;width:159.5px;border-radius: 50%;">
+					</a>
+				</div>
+				<div class="bottom-bottom">
+					<a href="" class="bottom_name">王琪</a>
+					<p>142首歌曲</p>
+				</div>
+			</div>
+		</div>
+		<div class="anchor">
+			<div class="anchor_top">
+				<span class="menu_top_one">主播电台</span>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a href="" class="right_anchor" style="background:yellow;">畅听更多精品电台&nbsp&nbsp|&nbsp&nbsp↓</a>
+			</div>
+			<div class="anchor_bottom">
+				<ul>
+					<li class="anchor_li">
+						<a href="" class="anchor_img">
+							<img src="images/2171200461.jpg" alt="" style="width:64.3px;height:64.3px;">
+						</a>
+						<a href="" class="anchor_a">
+							<span class="echo">晓苏电台</span>
+							<br>
+							<span class="echo_bot">情感晓苏</span>
+							<!-- <hr> -->
+						</a>
+					</li>
+					<li class="anchor_li">
+						<a href="" class="anchor_img">
+							<img src="images/2171200461.jpg" alt="" style="width:64.3px;height:64.3px;">
+						</a>
+						<a href="" class="anchor_a">
+							<span class="echo">晓苏电台</span>
+							<br>
+							<span class="echo_bot">情感晓苏</span>
+							<!-- <hr> -->
+						</a>
+					</li>
+					<li class="anchor_li">
+						<a href="" class="anchor_img">
+							<img src="images/2171200461.jpg" alt="" style="width:64.3px;height:64.3px;">
+						</a>
+						<a href="" class="anchor_a">
+							<span class="echo">晓苏电台</span>
+							<br>
+							<span class="echo_bot">情感晓苏</span>
+							<!-- <hr> -->
+						</a>
+					</li>
+				</ul>
+				<ul>
+					<li class="anchor_li">
+						<a href="" class="anchor_img">
+							<img src="images/2171200461.jpg" alt="" style="width:64.3px;height:64.3px;">
+						</a>
+						<a href="" class="anchor_a">
+							<span class="echo">晓苏电台</span>
+							<br>
+							<span class="echo_bot">情感晓苏</span>
+							<!-- <hr> -->
+						</a>
+					</li>
+					<li class="anchor_li">
+						<a href="" class="anchor_img">
+							<img src="images/2171200461.jpg" alt="" style="width:64.3px;height:64.3px;">
+						</a>
+						<a href="" class="anchor_a">
+							<span class="echo">晓苏电台</span>
+							<br>
+							<span class="echo_bot">情感晓苏</span>
+							<!-- <hr> -->
+						</a>
+					</li>
+					<li class="anchor_li">
+						<a href="" class="anchor_img">
+							<img src="images/2171200461.jpg" alt="" style="width:64.3px;height:64.3px;">
+						</a>
+						<a href="" class="anchor_a">
+							<span class="echo">晓苏电台</span>
+							<br>
+							<span class="echo_bot">情感晓苏</span>
+							<!-- <hr> -->
+						</a>
+					</li>
+				</ul>
+				<ul>
+					<li class="anchor_li">
+						<a href="" class="anchor_img">
+							<img src="images/2171200461.jpg" alt="" style="width:64.3px;height:64.3px;">
+						</a>
+						<a href="" class="anchor_a">
+							<span class="echo">晓苏电台</span>
+							<br>
+							<span class="echo_bot">情感晓苏</span>
+							<!-- <hr> -->
+						</a>
+					</li>
+					<li class="anchor_li">
+						<a href="" class="anchor_img">
+							<img src="images/2171200461.jpg" alt="" style="width:64.3px;height:64.3px;">
+						</a>
+						<a href="" class="anchor_a">
+							<span class="echo">晓苏电台</span>
+							<br>
+							<span class="echo_bot">情感晓苏</span>
+							<!-- <hr> -->
+						</a>
+					</li>
+					<li class="anchor_li">
+						<a href="" class="anchor_img">
+							<img src="images/2171200461.jpg" alt="" style="width:64.3px;height:64.3px;">
+						</a>
+						<a href="" class="anchor_a">
+							<span class="echo">晓苏电台</span>
+							<br>
+							<span class="echo_bot">情感晓苏</span>
+							<!-- <hr> -->
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer_top">
+			<div class="footer_top_div">
+				<div class="div_left">
+					<div class="div_left_zi">下载酷我音乐客户端</div>
+					<div class="download">
+						<div class="download_item">
+							<img src="images/windows.png" alt="" class="item_img">
+							<p class="item_p">PC版</p>
+						</div>
+						<div class="download_item">
+							<img src="images/anzhuo.png" alt="" class="item_img">
+							<p class="item_p">Android</p>
+						</div>
+						<div class="download_item">
+							<img src="images/iphone.png" alt="" class="item_img">
+							<p class="item_p">iPhone版</p>
+						</div>
+					</div>
+				</div>
+				<div class="div_middle">
+					<div class="div_left_zi">协议与声明</div>
+					<div class="download">
+						<div class="download_div">
+							<a href="" class="download_p">用户服务协议</a>
+							&nbsp&nbsp&nbsp&nbsp&nbsp
+							<a href="" class="download_p">免责声明</a>
+						</div>
+						<br><br>
+						<div class="download_div">
+							<a href="" class="download_p">隐私政策</a>
+							&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+							<a href="" class="download_p">权利声明</a>
+						</div>
+					</div>
+				</div>
+				<div class="div_right">
+					<div class="div_left_zi">其他</div>
+					<div class="download">
+						<div class="download_div">
+							<a href="" class="download_p">联系我们</a>
+							&nbsp&nbsp&nbsp&nbsp&nbsp
+							<a href="" class="download_p">腾讯音乐</a>
+							&nbsp&nbsp&nbsp&nbsp&nbsp
+							<a href="" class="download_p">诚聘英才</a>
+						</div>
+						<br><br>
+						<div class="download_div">
+							<a href="" class="download_p">广告服务</a>
+							&nbsp&nbsp&nbsp&nbsp&nbsp
+							<a href="" class="download_p">未成年人家长监护工程</a>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="footer_li">
+				<p class="bottom_div">北京酷我科技有限公司版权所有 丨 网络文化经营许可证：<a href="" class="lianjie">京网文[2015]0525-205号</a>&nbsp&nbsp|&nbsp
+				<a href="" class="lianjie">信息网络传播视听节目许可证0109362号</a>
+							 丨 增值电信业务经营许可证B2-20090418 丨 京ICP证060261号
+				</p>
+				<p>广播电视节目制作经营许可证京字第2037号 &nbsp| &nbsp<a href="" class="lianjie">营业性演出许可证京市演1574</a>&nbsp&nbsp|&nbsp&nbsp
+				<a href="" class="lianjie">京公网安备11010502030216号</a>&nbsp&nbsp|&nbsp&nbsp京ICP备09014827号
+				</p>
+				<p>举报电话：010-87939949丨 举报邮箱：support@kuwo.cn</p>
+				</div>
+		</div>
+		<div class="footer_bottom">
+			<div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
